@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css2/bootstrap.min.css">
+    <script src="css1/popper.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="css2/sweetalert2.min.css">
+    <title>Carrito</title>
+
+    <!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+    var _smartsupp = _smartsupp || {};
+    _smartsupp.key = '3c6cbc3113066eb322c25ae64835aabf009af37d';
+    window.smartsupp||(function(d) {
+      var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+      s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+      c.type='text/javascript';c.charset='utf-8';c.async=true;
+      c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+    })(document);
+    </script>
+</head>
+<body>
+    
+    <style>
+        
+  .card:hover{
+  	transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.09);
+      }
+        .container span {
+            font-size: 20pt;
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            transition: all 300ms ease-in-out;}
+        .container span::before{
+            content: var(--l);
+            position: absolute;
+            transform: scale(1.1);
+            filter: blur(50px);
+        }
+        .container span::after{
+            content: var(--l);
+            position: absolute;
+            top: 80%;
+            left: 0;
+            filter: blur(50px);
+            transform: rotatex(50deg);
+        }
+        .container span:hover{
+            filter: contrast(250%);
+        }
+        .container span:nth-child(1){
+            color: #00bef8;
+        }
+        .container span:nth-child(2){
+            color: #d06aff;
+        }
+        .container span:nth-child(3){
+            color: #05728d;
+        }
+        .container span:nth-child(4){
+            color: #038554;
+        }
+        .container span:nth-child(5){
+            color: #ffff51;
+        }
+        .container span:nth-child(6){
+            color: #ff6961;
+        }
+        .container span:nth-child(9){
+            color: #2ef8a0;
+        }
+        .container span:nth-child(10){
+            color: #f82d97;
+        }
+        .container span:nth-child(11){
+            color: #ffcc50;
+        }
+        .container span:nth-child(12){
+            color: #ff9800;
+        }
+        .container span:nth-child(13){
+            color: #03bb85;
+        }
+        .container span:nth-child(14){
+            color: #cb4c46;
+        }
+        .container span:nth-child(15){
+            color: #8db600;
+        }
+        .container span:nth-child(16){
+            color: #675cb0;
+        }
+        div.br	{position: sticky;
+		position: -webkit-sticky;
+		margin: 0 auto;
+		top:0;
+		z-index: 96;
+      }
+     </style>
+     <div class="br">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="imagenes/logo1.jpg" width="60" height="60" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link"  href="ofertas.html">ofertas</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Mujer
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="carrito.html#prendas">Prendas</a>
+                <a class="dropdown-item" href="carrito.html#Calzado">Calzado</a>
+                <a class="dropdown-item" href="carrito.html#Accesorios">Accesorios</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Hombre
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="carrito.html#prendahombre">Prendas</a>
+                    <a class="dropdown-item" href="carrito.html#Calzadohombre">Calzado</a>
+                    <a class="dropdown-item" href="carrito.html#accesoriosh">Accesorios</a>
+                </div>
+              </li>
+          </ul>
+          <div class="row "  >
+            
+            <div class="col-md 12">
+              <div class="container">
+                <center>
+                  <a href="index1.html">
+            <span style="--l: 'J';">¡J</span>
+            <span style="--l: 'J';">U</span>
+            <span style="--l: 'J';">L</span>
+            <span style="--l: 'J';">Y</span>
+            <span style="--l: 'J';">'</span>
+            <span style="--l: 'J';">S</span>
+           
+            <span style="--l: 'J';">S</span>
+            <span style="--l: 'J';">H</span>
+            <span style="--l: 'J';">O</span>
+            <span style="--l: 'J';">P</span>
+            <span style="--l: 'J';">P</span>
+            <span style="--l: 'J';">I</span>
+            <span style="--l: 'J';">N</span>
+            <span style="--l: 'J';">G!</span>
+          </a>
+          </center>
+          
+        </div>
+        </div>
+      </div>
+     </div>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <img src="imagenes/carritos.png" class="nav-link dropdown-toggle img-fluid" height="80px" width="80px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"aria-expanded="false" ></img>
+                    <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+                        <table id="lista-carrito" class="table">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+        
+                        <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar Carrito</a>
+                        <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Procesar
+                            Compra</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+      </nav>
+     </div>
+    <main>
+        <section style="background: #f7ff00;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #db36a4, #f7ff00);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #db36a4, #f7ff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */"
+        >
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 my-4 mx-auto text-center">
+            <h4 class="display-4 mt-4">Lista de Productos</h4>
+            <p class="lead">Elige tu producto favorito</p>
+        </div>
+        <a name="prendas"></a>
+        <div class="container" id="lista-productos">
+            
+            <div class="card-deck mb-3 text-center hover">
+                
+                <div class="card mb-4 shadow-sm ">
+                    <div class="card-header" style="background-color:  #1cdd66">
+                        <h4 class="my-0 font-weight-bold">Falda.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/falda.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">OFERTA 170.00</span></h1>
+
+                       <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>8 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>256 GB DISCO SSD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #1cdd66">
+                        <h4 class="my-0 font-weight-bold  ">Blusa rosa.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/blusas/blusa3.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">200.00</span></h1>
+
+                       <!-- <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>16 GB RAM</li>
+                            <li>COLOR NEGRO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="2">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #1cdd66">
+                        <h4 class="my-0 font-weight-bold">Blusa blanca.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/blusas/blusa5.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">200.00</span></h1>
+
+                        <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="3">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #1cdd66">
+                        <h4 class="my-0 font-weight-bold">Blusa negra con blanco.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/blusas/blusa4.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">200.00</span></h1>
+
+                         <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="4">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #1cdd66">
+                        <h4 class="my-0 font-weight-bold">Blusa lila.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/blusas/blusa7.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$<span class="">200.00</span></h1>
+
+                        <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="5">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header " style="background-color:  #1cdd66">
+                        <h4 class="my-0 font-weight-bold">Blusa-Top blanco.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/blusas/blusa8.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">200.00</span></h1>
+
+                       <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="6">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header " style="background-color:  #1cdd66">
+                        <h4 class="my-0 font-weight-bold">Blusa negra.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/blusas/blusa10.jpeg"class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">200.00</span></h1>
+
+                      <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="7">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #1cdd66">
+                        <h4 class="my-0 font-weight-bold">Blusa-Top azul.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/blusas/blusa9.jpeg"class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">200.00</span></h1>
+
+                        <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="8">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header " style="background-color:  #1cdd66">
+                        <h4 class="my-0 font-weight-bold">Falda cafe.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/faldas/falda2.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">190.00</span></h1>
+
+                        <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="9">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container" id="lista-productos">
+            
+                <div class="card-deck mb-3 text-center hover">
+                    <div class="card-deck mb-3 text-center">
+                    <div class="card mb-4 shadow-sm ">
+                        <div class="card-header" style="background-color:  #1cdd66">
+                            <h4 class="my-0 font-weight-bold">Falda con flores.</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="imagenes/faldas/falda3.jpeg" class="card-img-top">
+                            <h1 class="card-title pricing-card-title precio">$ <span class="">190.00</span></h1>
+    
+                           <!--<ul class="list-unstyled mt-3 mb-4">
+                                <li></li>
+                                <li>8 GB RAM</li>
+                                <li>COLOR PLATEADO</li>
+                                <li>256 GB DISCO SSD</li>
+                            </ul>-->
+                            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="10">Comprar</a>
+                        </div>
+                    </div>
+    
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header " style="background-color:  #1cdd66">
+                            <h4 class="my-0 font-weight-bold  ">Falda vino.</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="imagenes/faldas/falda4.jpeg" class="card-img-top">
+                            <h1 class="card-title pricing-card-title precio">$ <span class="">190.00</span></h1>
+    
+                           <!-- <ul class="list-unstyled mt-3 mb-4">
+                                <li></li>
+                                <li>16 GB RAM</li>
+                                <li>COLOR NEGRO</li>
+                                <li>1 TB DD</li>
+                            </ul>-->
+                            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="11">Comprar</a>
+                        </div>
+                    </div>
+    
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header" style="background-color:  #1cdd66">
+                            <h4 class="my-0 font-weight-bold">Falda negra.</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="imagenes/faldas/falda5.jpeg" class="card-img-top">
+                            <h1 class="card-title pricing-card-title precio">$ <span class="">190.00</span></h1>
+    
+                            <!--<ul class="list-unstyled mt-3 mb-4">
+                                <li></li>
+                                <li>4 GB RAM</li>
+                                <li>COLOR PLATEADO</li>
+                                <li>1 TB DD</li>
+                            </ul>-->
+                            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="12">Comprar</a>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div class="card-deck mb-3 text-center">
+                    
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header" style="background-color:  #1cdd66">
+                            <h4 class="my-0 font-weight-bold">Falda blanca.</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="imagenes/faldas/falda6.jpeg" class="card-img-top">
+                            <h1 class="card-title pricing-card-title precio">$ <span class="">190.00</span></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>
+                             <!--<ul class="list-unstyled mt-3 mb-4">
+                                <li></li>
+                                <li>4 GB RAM</li>
+                                <li>COLOR PLATEADO</li>
+                                <li>1 TB DD</li>
+                            </ul>-->
+                            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="13">Comprar</a>
+                        </div>
+                    </div>
+    
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header" style="background-color:  #1cdd66">
+                            <h4 class="my-0 font-weight-bold">Falda verde.</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="imagenes/faldas/falda7.jpeg" class="card-img-top">
+                            <h1 class="card-title pricing-card-title precio">$ <span class="">190.00</span></h1>
+    
+                            <!--<ul class="list-unstyled mt-3 mb-4">
+                                <li></li>
+                                <li>4 GB RAM</li>
+                                <li>COLOR PLATEADO</li>
+                                <li>1 TB DD</li>
+                            </ul>-->
+                            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="14">Comprar</a>
+                        </div>
+                    </div>
+    
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header" style="background-color:  #1cdd66">
+                            <h4 class="my-0 font-weight-bold">Falda de cuadritos</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="imagenes/faldas/falda9.jpeg" class="card-img-top">
+                            <h1 class="card-title pricing-card-title precio">$ <span class="">190.00</span></h1>
+    
+                           <!--<ul class="list-unstyled mt-3 mb-4">
+                                <li></li>
+                                <li>4 GB RAM</li>
+                                <li>COLOR PLATEADO</li>
+                                <li>1 TB DD</li>
+                            </ul>-->
+                            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="15">Comprar</a>
+                        </div>
+                    </div>      
+                </div>                                 
+                
+                         
+                </div> 
+            </div>
+           <!--calzado--> 
+           <a name="Calzado"></a>
+           <div class="card-deck mb-3 text-center hover">
+                
+            <div class="card mb-4 shadow-sm ">
+                <div class="card-header" style="background-color:  #f354e6">
+                    <h4 class="my-0 font-weight-bold">Zapatos cafes.</h4>
+                </div>
+                <div class="card-body">
+                    <img src="imagenes/tenis/WhatsApp Image 2022-11-08 at 5.02.05 PM (1).jpeg" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$ <span class="">OFERTA 300.00</span></h1>
+
+                   <!--<ul class="list-unstyled mt-3 mb-4">
+                        <li></li>
+                        <li>8 GB RAM</li>
+                        <li>COLOR PLATEADO</li>
+                        <li>256 GB DISCO SSD</li>
+                    </ul>-->
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="16">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header" style="background-color:  #f354e6">
+                    <h4 class="my-0 font-weight-bold  ">Zapatos beige.</h4>
+                </div>
+                <div class="card-body">
+                    <img src="imagenes/tenis/WhatsApp Image 2022-11-08 at 5.02.05 PM.jpeg" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$ <span class="">350.00</span></h1>
+
+                   <!-- <ul class="list-unstyled mt-3 mb-4">
+                        <li></li>
+                        <li>16 GB RAM</li>
+                        <li>COLOR NEGRO</li>
+                        <li>1 TB DD</li>
+                    </ul>-->
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="17">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header" style="background-color:  #f354e6">
+                    <h4 class="my-0 font-weight-bold">Tenis negros.</h4>
+                </div>
+                <div class="card-body">
+                    <img src="imagenes/tenis/WhatsApp Image 2022-11-08 at 5.02.05 PM (3).jpeg" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$ <span class="">350.00</span></h1>
+
+                    <!--<ul class="list-unstyled mt-3 mb-4">
+                        <li></li>
+                        <li>4 GB RAM</li>
+                        <li>COLOR PLATEADO</li>
+                        <li>1 TB DD</li>
+                    </ul>-->
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="18">Comprar</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card-deck mb-3 text-center">
+            
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header" style="background-color:  #f354e6">
+                    <h4 class="my-0 font-weight-bold">Zapatillas mezclilla.</h4>
+                </div>
+                <div class="card-body">
+                    <img src="imagenes/tenis/WhatsApp Image 2022-11-08 at 5.02.05 PM (6).jpeg" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$ <span class="">350.00</span></h1>
+
+                     <!--<ul class="list-unstyled mt-3 mb-4">
+                        <li></li>
+                        <li>4 GB RAM</li>
+                        <li>COLOR PLATEADO</li>
+                        <li>1 TB DD</li>
+                    </ul>-->
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="19">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header" style="background-color:  #f354e6">
+                    <h4 class="my-0 font-weight-bold">Tenis rosas.</h4>
+                </div>
+                <div class="card-body">
+                    <img src="imagenes/tenis/WhatsApp Image 2022-11-08 at 5.02.05 PM (2).jpeg" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$ <span class="">350.00</span></h1>
+
+                    <!--<ul class="list-unstyled mt-3 mb-4">
+                        <li></li>
+                        <li>4 GB RAM</li>
+                        <li>COLOR PLATEADO</li>
+                        <li>1 TB DD</li>
+                    </ul>-->
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="20">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header" style="background-color:  #f354e6">
+                    <h4 class="my-0 font-weight-bold">Tenis negros.</h4>
+                </div>
+                <div class="card-body">
+                    <img src="imagenes/tenis/WhatsApp Image 2022-11-08 at 5.02.05 PM (5).jpeg" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$ <span class="">350.00</span></h1>
+
+                   <!--<ul class="list-unstyled mt-3 mb-4">
+                        <li></li>
+                        <li>4 GB RAM</li>
+                        <li>COLOR PLATEADO</li>
+                        <li>1 TB DD</li>
+                    </ul>-->
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="21">Comprar</a>
+                </div>
+            </div>
+
+        </div>
+        <a name="Accesorios"></a>
+        <div class="card-deck mb-3 text-center">
+            
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header" style="background-color:  #e0fa84">
+                    <h4 class="my-0 font-weight-bold">Anillo.</h4>
+                </div>
+                <div class="card-body">
+                    <img src="imagenes/anillo.webp"class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$ <span class="">OFERTA 100.00</span></h1>
+
+                  <!--<ul class="list-unstyled mt-3 mb-4">
+                        <li></li>
+                        <li>4 GB RAM</li>
+                        <li>COLOR PLATEADO</li>
+                        <li>1 TB DD</li>
+                    </ul>-->
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="22">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header" style="background-color:  #e0fa84">
+                    <h4 class="my-0 font-weight-bold">Bolsa.</h4>
+                </div>
+                <div class="card-body">
+                    <img src="imagenes/WhatsApp Image 2022-11-08 at 5.13.11 PM.jpeg"class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$ <span class="">220.00</span></h1>
+
+                    <!--<ul class="list-unstyled mt-3 mb-4">
+                        <li></li>
+                        <li>4 GB RAM</li>
+                        <li>COLOR PLATEADO</li>
+                        <li>1 TB DD</li>
+                    </ul>-->
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="23">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header " style="background-color:  #e0fa84">
+                    <h4 class="my-0 font-weight-bold">Pulcera.</h4>
+                </div>
+                <div class="card-body">
+                    <img src="imagenes/WhatsApp Image 2022-11-08 at 5.13.09 PM.jpeg" class="card-img-top">
+                    <h1 class="card-title pricing-card-title precio">$ <span class="">150.00</span></h1>
+
+                    <!--<ul class="list-unstyled mt-3 mb-4">
+                        <li></li>
+                        <li>4 GB RAM</li>
+                        <li>COLOR PLATEADO</li>
+                        <li>1 TB DD</li>
+                    </ul>-->
+                    <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="24">Comprar</a>
+                </div>
+            </div>
+
+        </div>
+        <a name="Accesorios"></a>
+        <div class="container" id="lista-productos">
+        
+            <div class="card-deck mb-3 text-center hover">
+                <div class="card-deck mb-3 text-center">
+                <div class="card mb-4 shadow-sm ">
+                    <div class="card-header" style="background-color:  #e0fa84">
+                        <h4 class="my-0 font-weight-bold">Pasadores.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/pasadores.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">100.00</span></h1>
+
+                       <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>8 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>256 GB DISCO SSD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="25">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #e0fa84">
+                        <h4 class="my-0 font-weight-bold  ">Collar luna.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/WhatsApp Image 2022-11-08 at 5.13.10 PM (1).jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">70.00</span></h1>
+
+                       <!-- <ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>16 GB RAM</li>
+                            <li>COLOR NEGRO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="26">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #e0fa84">
+                        <h4 class="my-0 font-weight-bold">Reloj.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/WhatsApp Image 2022-11-08 at 5.13.10 PM (3).jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">300.00</span></h1>
+
+                        <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="27">Comprar</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #e0fa84">
+                        <h4 class="my-0 font-weight-bold">Bolsa gris.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/WhatsApp Image 2022-11-08 at 5.13.10 PM (4).jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">250.00</span></h1>
+                    
+                         <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="28">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #e0fa84">
+                        <h4 class="my-0 font-weight-bold">Kit de anillo.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/WhatsApp Image 2022-11-08 at 5.13.10 PM (5).jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">129.00</span></h1>
+
+                        <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="29">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #e0fa84">
+                        <h4 class="my-0 font-weight-bold">Kit de anillos</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenes/WhatsApp Image 2022-11-08 at 5.13.10 PM (6).jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">110.00</span></h1>
+
+                       <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="30">Comprar</a>
+                    </div>
+                </div>      
+            </div>    
+            <div class="card-deck mb-3 text-center">
+                <!--PRENDAS HOMBRE-->
+                <a name="prendahombre"></a>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header " style="background-color:  #26a7f1">
+                        <h4 class="my-0 font-weight-bold">Camisa negra.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/camisa.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">OFERTA 250.00</span></h1>
+                        
+                         <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="31">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header " style="background-color:  #26a7f1">
+                        <h4 class="my-0 font-weight-bold">Camisa 3 colores.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/playera.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">300.00</span></h1>
+
+                        <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="32">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header " style="background-color:  #26a7f1">
+                        <h4 class="my-0 font-weight-bold">Sueter negro con blanco</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/sueter.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">350.00</span></h1>
+
+                       <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="33">Comprar</a>
+                    </div>
+                </div>      
+            </div>    
+            <div class="card-deck mb-3 text-center">
+                <!--HOMBRES PRENDAS-->
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header " style="background-color:  #26a7f1">
+                        <h4 class="my-0 font-weight-bold">Playera.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/WhatsApp Image 2022-11-08 at 4.57.28 PM (1).jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">300.00</span></h1>
+                       
+                         <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="34">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header " style="background-color:  #26a7f1">
+                        <h4 class="my-0 font-weight-bold">Playera verde.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/WhatsApp Image 2022-11-08 at 4.57.28 PM.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">250.00</span></h1>
+
+                        <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="35">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header " style="background-color:  #26a7f1">
+                        <h4 class="my-0 font-weight-bold">Camisa a 3 colores</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/WhatsApp Image 2022-11-08 at 4.57.29 PM.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">300.00</span></h1>
+
+                       <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="36">Comprar</a>
+                    </div>
+                </div>      
+            </div>    
+            <div class="card-deck mb-3 text-center">
+                <!--CALZADO-->
+                <a name="Calzadohombre"></a>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 font-weight-bold">Tenis.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/tenis/tenis1.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">OFERTA 900.00</span></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                       
+                         <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="37">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header " style="background-color:  #f59300">
+                        <h4 class="my-0 font-weight-bold">Tenis blancos.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/tenis/WhatsApp Image 2022-11-09 at 8.42.16 PM (1).jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">800.00</span></h1>
+
+                        <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="38">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #f59300">
+                        <h4 class="my-0 font-weight-bold">Tenis negris</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/tenis/WhatsApp Image 2022-11-09 at 8.42.16 PM (2).jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">800.00</span></h1>
+
+                       <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="39">Comprar</a>
+                    </div>
+                </div>      
+            </div>    
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #f59300">
+                        <h4 class="my-0 font-weight-bold">Tenis blancos.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/tenis/WhatsApp Image 2022-11-09 at 8.42.16 PM (3).jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">800.00</span></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                       
+                         <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="40">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #f59300">
+                        <h4 class="my-0 font-weight-bold">Tenis blancos.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/tenis/WhatsApp Image 2022-11-09 at 8.42.17 PM (1).jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">950.00</span></h1>
+
+                        <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="41">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #f59300">
+                        <h4 class="my-0 font-weight-bold">Tenis blancos con azul</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/tenis/WhatsApp Image 2022-11-09 at 8.42.18 PM.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">950.00</span></h1>
+
+                       <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="42">Comprar</a>
+                    </div>
+                </div>      
+            </div>    
+            <div class="card-deck mb-3 text-center">
+                
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #f59300">
+                        <h4 class="my-0 font-weight-bold">Botas cafes.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/botas/WhatsApp Image 2022-11-09 at 8.30.50 PM (1).jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">650.00</span></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                       
+                         <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="43">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header " style="background-color:  #f59300">
+                        <h4 class="my-0 font-weight-bold">Botas negras.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/botas/WhatsApp Image 2022-11-09 at 8.30.50 PM.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">930.00</span></h1>
+
+                        <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="44">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #f59300">
+                        <h4 class="my-0 font-weight-bold">Botas miel</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/botas/WhatsApp Image 2022-11-09 at 8.30.51 PM (2).jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">900.00</span></h1>
+
+                       <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="45">Comprar</a>
+                    </div>
+                </div>      
+            </div>    
+          
+            <div class="card-deck mb-3 text-center">
+                <!--ACCESORIOS-->
+               
+                <a name="accesoriosh"></a>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #c400f5">
+                        <h4 class="my-0 font-weight-bold">Cadena triangulo.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/cadena.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">OFERTA 100.00</span></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                       
+                         <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="46">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #c400f5">
+                        <h4 class="my-0 font-weight-bold">Pulcera.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/pulcerah.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">180.00</span></h1>
+
+                        <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="47">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #c400f5">
+                        <h4 class="my-0 font-weight-bold">Broche</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/WhatsApp Image 2022-11-08 at 5.05.58 PM.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">80.00</span></h1>
+
+                       <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="48">Comprar</a>
+                    </div>
+                </div>      
+            </div>    
+            <div class="card-deck mb-3 text-center">
+                <!--ACCESORIOS-->
+                <a name="Accesorioshombre"></a>
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header " style="background-color:  #c400f5">
+                        <h4 class="my-0 font-weight-bold">Pulcera.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/WhatsApp Image 2022-11-08 at 5.06.25 PM.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">180.00</span></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                       
+                         <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="49">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header " style="background-color:  #c400f5">
+                        <h4 class="my-0 font-weight-bold">Cadena.</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/WhatsApp Image 2022-11-08 at 5.06.53 PM.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">190.00</span></h1>
+
+                        <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="50">Comprar</a>
+                    </div>
+                </div>
+
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header" style="background-color:  #c400f5">
+                        <h4 class="my-0 font-weight-bold">Kit de anillos</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="imagenesh/WhatsApp Image 2022-11-08 at 5.07.06 PM.jpeg" class="card-img-top">
+                        <h1 class="card-title pricing-card-title precio">$ <span class="">180.00</span></h1>
+
+                       <!--<ul class="list-unstyled mt-3 mb-4">
+                            <li></li>
+                            <li>4 GB RAM</li>
+                            <li>COLOR PLATEADO</li>
+                            <li>1 TB DD</li>
+                        </ul>-->
+                        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="51">Comprar</a>
+                    </div>
+                </div>      
+            </div>    
+        </div>  </div>  </section>        
+    
+    </main>
+
+    <script src="css1/jquery-3.4.1.min.js"></script>
+    <script src="css1/bootstrap.min.js"></script>
+    <script src="css1/sweetalert2.min.js"></script>
+    <script src="css1/carrito.js"></script>
+    <script src="css1/pedido.js"></script>
+
+   
+</body>
+</html>

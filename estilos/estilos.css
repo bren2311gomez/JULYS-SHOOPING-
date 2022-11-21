@@ -1,0 +1,89 @@
+
+.container span {
+	font-size: 20pt;
+	font-weight: bold;
+	position: relative;
+	cursor: pointer;
+	transition: all 300ms ease-in-out;}
+.container span::before{
+	content: var(--l);
+	position: absolute;
+	transform: scale(1.1);
+	filter: blur(50px);
+}
+.container span::after{
+	content: var(--l);
+	position: absolute;
+	top: 80%;
+	left: 0;
+	filter: blur(50px);
+	transform: rotatex(50deg);
+}
+.container span:hover{
+	filter: contrast(250%);
+}
+.container span:nth-child(1){
+    color: #00bef8;
+}
+.container span:nth-child(2){
+    color: #d06aff;
+}
+.container span:nth-child(3){
+    color: #05728d;
+}
+.container span:nth-child(4){
+    color: #038554;
+}
+.container span:nth-child(5){
+    color: #ffff51;
+}
+.container span:nth-child(6){
+    color: #ff6961;
+}
+.container span:nth-child(9){
+    color: #2ef8a0;
+}
+.container span:nth-child(10){
+    color: #f82d97;
+}
+.container span:nth-child(11){
+    color: #ffcc50;
+}
+.container span:nth-child(12){
+    color: #ff9800;
+}
+.container span:nth-child(13){
+    color: #03bb85;
+}
+.container span:nth-child(14){
+    color: #cb4c46;
+}
+.container span:nth-child(15){
+    color: #8db600;
+}
+.container span:nth-child(16){
+    color: #675cb0;
+}
+
+.strike-text {
+	color: rgb(252, 208, 14);
+	text-decoration: line-through;
+}
+
+main>.catalogo{
+     padding: 30px 0;
+}
+.card:hover{
+	transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.card img{
+	position:relative;
+	top: 20px;
+	right: 15px;
+	max-height: 270px; 
+  }
+.titulo{
+	color: #010003;
+	font-size:xx-large;
+}
